@@ -1,19 +1,21 @@
 ## Project
 
-## Exercise 1
-
+# Packages
 
 install.packages("plot3Drgl")
-library(plot3Drgl)
-library(emdbook)
+install.packages("fitdistrplus")
 install.packages("maxLik")
+install.packages("evd")
+install.packages("univariateML")
+install.packages('MASS')
+install.packages('plot3D')
+install.packages('plot3Drgl')
 library(maxLik)
 library(MASS)
-install.packages("fitdistrplus")
+library(plot3Drgl)
+library(emdbook)
 library(fitdistrplus)
-install.packages("evd")
 library(evd)
-install.packages("univariateML")
 library(univariateML)
 library(plot3D)
 
